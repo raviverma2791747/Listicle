@@ -1,0 +1,136 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(orange,white,green);
+    margin: 0px;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/my-header.jpg);
+    height: 500px;
+    display: table;
+    width: 100%;
+}
+
+header > h1 {
+    font-size: 100px;
+    color: white;
+    max-width: 780px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#profile{
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: blue;
+}
+
+#profile > span {
+    display: block;
+    font-weight: bold;
+}
+
+#profile > img {
+    height: 100px;
+    margin-top: -50px;
+    border-radius:50%;
+}
+
+#profile > time {
+    display: inline-block;
+    font-weight: bold;
+    line-height:  24px;
+    border-bottom-width: 5px;
+    border-bottom-color: green;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+#container {
+    width: 66.67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+section {
+    margin-bottom: 120px;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+section > span {
+    font-size: 36px;
+    position: absolute;
+    right: 100%;
+    text-align: right;
+    margin: 0px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: blue;
+    text-shadow:  0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+section > h2 { 
+    font-size: 36px;
+    color: blue;
+    margin: 0px;
+}
+
+
+section > address > a {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+section>address:hover > a {
+    color: blue;
+    font-weight: bold;
+}
+
+section > p {
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section > p > strong {
+    display: inline-block;
+    margin-top: 20px;
+}
+section > img {
+    width: 100%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+section:hover > img {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
